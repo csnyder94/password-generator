@@ -8,11 +8,11 @@ This project was to clean up JavaScript for a random password generator. It cont
 
 ## Expected Default Webview
 
-![Password-generator-default](https://user-images.githubusercontent.com/124528804/224122504-7f57adf5-485b-4b1f-94c8-4b42c3f07fb1.png)
+![Password-generator-default](https://user-images.githubusercontent.com/124528804/224123348-a8b7ebfb-3f7e-4e1f-9c1a-1e35610fbe9e.png)
 
 ## Expected Webview With Generated Password
 
-![password-generator-generatedpw](https://user-images.githubusercontent.com/124528804/224122720-8aaa38d8-5fd5-4ea1-8a59-135ec9faf858.png)
+![password-generator-generatedpw](https://user-images.githubusercontent.com/124528804/224123404-61ca459f-e2c5-484e-b440-a1d229ae9997.png)
 
 ## Installation
 

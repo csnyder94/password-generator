@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en">         <!--Sets Head Data and Links CSS-->
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,16 +8,21 @@
     <link rel="stylesheet" href="assets/css/reset.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
-  <body>
+
+  <body>          <!--Body Section-->
+
     <div class="wrapper">
-      <header>
+
+      <header>         <!--Main Header-->
         <h1>Password Generator</h1>
       </header>
-      <div class="card">
+
+      <div class="card">       <!--Secondary Header-->
         <div class="card-header">
           <h2>Generate a Password</h2>
         </div>
-        <div class="card-body">
+
+        <div class="card-body"> <!--Password Display Window-->
           <textarea
             readonly
             id="password"
@@ -25,11 +30,15 @@
             aria-label="Generated Password"
           ></textarea>
         </div>
-        <div class="card-footer">
+
+        <div class="card-footer">   <!--Generate Password Button-->
           <button id="generate" class="btn">Generate Password</button>
         </div>
+
       </div>
     </div>
-    <script src="assets/javascript/script.js"></script>
+
+    <script src="assets/javascript/script.js"></script> <!--Links JavaScript-->
+
   </body>
 </html>

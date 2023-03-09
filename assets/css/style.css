@@ -1,9 +1,9 @@
 *,
-*::before,
+*::before,   /*Sets selector for before and after specified or selected elements below */
 *::after {
   box-sizing: border-box;
 }
-
+/* Sets height for html, body, and wrapper */
 html,
 body,
 .wrapper {
@@ -11,25 +11,25 @@ body,
   margin: 0;
   padding: 0;
 }
-
-body {
+/* Sets Font and Background Color For Entire Body */
+body {             
   font-family: sans-serif;
   background-color: #f9fbfd;
 }
-
+/* Pads Entire Web-Page */
 .wrapper {
   padding-top: 30px;
   padding-left: 20px;
   padding-right: 20px;
 }
-
+/* Sets Header Styling (Password Generator) */
 header {
   text-align: center;
   padding: 20px;
   padding-top: 0px;
   color: hsl(206, 17%, 28%);
 }
-
+/* Sets Styling for "Main Body Where Password Displays */
 .card {
   background-color: hsl(0, 0%, 100%);
   border-radius: 5px;
@@ -53,7 +53,7 @@ header {
 .card-body {
   min-height: 100px;
 }
-
+/* Sets Styling for Footer Where "Generate Password" Button is */
 .card-footer {
   text-align: center;
 }
@@ -71,7 +71,7 @@ header {
   display: block;
   clear: both;
 }
-
+/* Sets Styling for actual "Generate Password" Button */
 .btn {
   border: none;
   background-color: hsl(360, 91%, 36%);
@@ -96,7 +96,7 @@ button[disabled] {
 .float-right {
   float: right;
 }
-
+/* Sets Styling for text area where generated password will appear */
 #password {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -117,7 +117,7 @@ button[disabled] {
   resize: none;
   overflow: hidden;
 }
-
+/* Media Query shrinks Button, "Your Secure Passwork" text area and Font when size is below 690px */ 
 @media (max-width: 690px) {
   .btn {
     font-size: 1rem;
@@ -129,7 +129,7 @@ button[disabled] {
     font-size: 1rem;
   }
 }
-
+/* Media Query shrinks Button and font again when size is below 500px */
 @media (max-width: 500px) {
   .btn {
     font-size: 0.8rem;
